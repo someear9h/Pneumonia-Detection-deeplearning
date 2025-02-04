@@ -1,8 +1,8 @@
 AUGMENTATION: True
-IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
-BATCH_SIZE: 16
+IMAGE_SIZE: [224, 224, 3] # VGG16 expects 224x224 images
+BATCH_SIZE: 32  # Increase batch size for stable training
 INCLUDE_TOP: False
-EPOCHS: 1
+EPOCHS: 20  # Train for at least 20 epochs
 CLASSES: 2
 WEIGHTS: imagenet
-LEARNING_RATE: 0.01
+LEARNING_RATE: 0.0001  # Reduce LR to prevent overshooting optimal weights
