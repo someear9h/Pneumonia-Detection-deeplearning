@@ -177,9 +177,6 @@ ECR_REPOSITORY_NAME = simple-app
 This project successfully implements **deep learning, MLOps, CI/CD, and cloud deployment** to detect pneumonia with high accuracy. The use of **DVC** ensures reproducibility, while **AWS EC2 and Docker** provide scalability for real-world deployment.
 ---
 
-Add your LinkedIn profile link at the end of the README under a **"Connect with Me"** section. Here's how it can be formatted:  
-
----
 ## Connect with Me  
 For more details and professional connections, visit my **[LinkedIn Profile](https://www.linkedin.com/in/samarth-tikotkar-7532b0328/)**.  
 
